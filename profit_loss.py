@@ -5,7 +5,7 @@ from pathlib import Path
 file_path = Path.cwd()/'summary_report.txt'
 
 # create file path to profit and loss csv
-profitlost_cwd = Path.cwd()/'csv_reports'/'profit and loss.csv'
+profitlost_cwd = Path.cwd()/'csv_reports'/'profit-and-loss-usd.csv'
 
 # create function to calculate if the profit is in surplus or deficit
 def profitandloss_function(forex):
